@@ -18,7 +18,7 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Sacred Roots:
           <br />
-          <span className="text-gradient">Worldschool Hub Peru</span>
+          <span className="text-soft-sand">Worldschool Hub Peru</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto leading-relaxed opacity-95">

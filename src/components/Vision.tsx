@@ -4,23 +4,23 @@ const Vision = () => {
   const visionPoints = [
     {
       icon: Users,
-      text: "A vibrant meeting point for families from around the world"
-    },
-    {
-      icon: Sparkles,
-      text: "A holistic learning space inspired by multiple intelligences, creativity, movement, and emotional well-being"
-    },
-    {
-      icon: Heart,
-      text: "A safe and nurturing environment designed with love and awareness for neurodivergent children"
+      text: "A flexible meeting point for traveling and local families"
     },
     {
       icon: TreePine,
-      text: "Activities rooted in nature, art, music, hands-on science, and Andean traditions"
+      text: "Activities in nature, art, music, hands-on science, and Andean culture"
+    },
+    {
+      icon: Sparkles,
+      text: "A learning space with a free, holistic pedagogy that integrates multiple intelligences, creativity, movement, and emotional well-being designed with love and awareness for neurodivergent children"
+    },
+    {
+      icon: Heart,
+      text: "Co-housing style living: a shared house in community for families and single parents, combining accommodation + community life"
     },
     {
       icon: Music,
-      text: "Blending education, free play, and community life"
+      text: "Space for free play, cultural exchange, and collaborative projects"
     }
   ];
 
