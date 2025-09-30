@@ -12,7 +12,7 @@ const Vision = () => {
     },
     {
       icon: Sparkles,
-      text: "A learning space with a free, holistic pedagogy that integrates multiple intelligences, creativity, movement, and emotional well-being designed with love and awareness for neurodivergent children"
+      text: "A free and holistic pedagogy that nurtures curiosity, creativity, and emotional well-being, integrating multiple intelligences and respecting diverse learning rhythms"
     },
     {
       icon: Heart,
