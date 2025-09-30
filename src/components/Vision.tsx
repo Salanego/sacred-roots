@@ -12,7 +12,7 @@ const Vision = () => {
     },
     {
       icon: Sparkles,
-      text: "A free and holistic pedagogy that nurtures curiosity, creativity, and emotional well-being, integrating multiple intelligences and respecting diverse learning rhythms"
+      text: "A free and holistic pedagogy that nurtures curiosity, creativity, and emotional well-being"
     },
     {
       icon: Heart,
