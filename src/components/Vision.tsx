@@ -16,7 +16,7 @@ const Vision = () => {
     },
     {
       icon: Heart,
-      text: "Co-housing style living: a shared house in community for families and single parents, combining accommodation + community life"
+      text: "Co-housing living: an intentional community space where families and single parents share the richness of everyday life — cooking, learning, creating, and growing together"
     },
     {
       icon: Music,
