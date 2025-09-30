@@ -20,7 +20,7 @@ const Vision = () => {
     },
     {
       icon: Music,
-      text: "Space for free play, cultural exchange, and collaborative projects"
+      text: "A safe and inspiring place for free play, cultural exchange, and collaborative projects between children and parents alike."
     },
     {
       icon: Brain,
