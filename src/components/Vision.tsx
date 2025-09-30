@@ -8,7 +8,7 @@ const Vision = () => {
     },
     {
       icon: TreePine,
-      text: "Activities in nature, art, music, hands-on science, and Andean culture"
+      text: "Daily experiences rooted in nature, art, music, movement, and hands-on science"
     },
     {
       icon: Sparkles,
