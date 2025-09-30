@@ -4,7 +4,7 @@ const Vision = () => {
   const visionPoints = [
     {
       icon: Users,
-      text: "A flexible meeting point for traveling and local families"
+      text: "A vibrant hub for families seeking alternative, holistic, and community-based learning"
     },
     {
       icon: TreePine,
