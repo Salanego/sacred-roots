@@ -35,7 +35,7 @@ const Vision = () => {
         </div>
         
         <div className="max-w-4xl mx-auto">
-          <div className="grid gap-8 md:gap-12">
+          <div className="grid md:grid-cols-3 gap-8 md:gap-6">
             {visionPoints.map((point, index) => (
               <div 
                 key={index}
