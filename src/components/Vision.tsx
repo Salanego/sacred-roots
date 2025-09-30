@@ -38,7 +38,7 @@ const Vision = () => {
           <div className="w-24 h-1 warm-gradient mx-auto rounded-full" />
         </div>
         
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 md:gap-6">
             {visionPoints.map((point, index) => (
               <div 
