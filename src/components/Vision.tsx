@@ -1,4 +1,4 @@
-import { Heart, Users, Sparkles, TreePine, Music, Palette } from "lucide-react";
+import { Heart, Users, Sparkles, TreePine, Music, Palette, Brain } from "lucide-react";
 
 const Vision = () => {
   const visionPoints = [
@@ -21,6 +21,10 @@ const Vision = () => {
     {
       icon: Music,
       text: "Space for free play, cultural exchange, and collaborative projects"
+    },
+    {
+      icon: Brain,
+      text: "A consciously designed space to embrace and support neurodivergent children with flexibility, compassion, and empowerment"
     }
   ];
 
