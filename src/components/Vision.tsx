@@ -24,7 +24,7 @@ const Vision = () => {
     },
     {
       icon: Brain,
-      text: "A learning environment consciously designed to embrace and support neurodivergent children, offering flexibility, compassion, and empowerment."
+      text: "A learning space consciously designed to support neurodivergent children with flexibility, compassion, and empowerment"
     }
   ];
 
