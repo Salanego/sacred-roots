@@ -16,11 +16,11 @@ const Vision = () => {
     },
     {
       icon: Heart,
-      text: "Co-housing living: an intentional community space where families and single parents sharing daily life, learning, and growth."
+      text: "Co-housing living: an intentional community space where families and single parents sharing daily life, learning, and growth"
     },
     {
       icon: Music,
-      text: "A safe and inspiring place for free play, cultural exchange, and collaborative projects between children and parents alike."
+      text: "A safe and inspiring place for free play, cultural exchange, and collaborative projects between children and parents alike"
     },
     {
       icon: Brain,
