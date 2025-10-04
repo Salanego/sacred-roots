@@ -8,7 +8,7 @@ const LearningApproach = () => {
     text: "Encourages curiosity and self-expression through art, music, and free play, inspiring creative exploration and discovery"
   }, {
     icon: Heart,
-    text: "Honors emotional well-being and the unique rhythm of each child"
+    text: "Honors emotional well-being and individuality through empathy, mindfulness, and authentic connection"
   }, {
     icon: Sparkles,
     text: "Embraces neurodivergent children with love, flexibility, and awareness"
