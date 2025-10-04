@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/sacred-valley-hero.jpg";
 
 const Hero = () => {
@@ -25,12 +26,14 @@ const Hero = () => {
           A home for families who learn, travel & grow together.
         </p>
         
-        <Button 
-          size="lg" 
-          className="warm-gradient text-white border-0 px-8 py-6 text-lg font-semibold rounded-2xl shadow-warm hover:scale-105 transition-smooth"
-        >
-          Start your family's next adventure
-        </Button>
+        <Link to="/apply">
+          <Button 
+            size="lg" 
+            className="warm-gradient text-white border-0 px-8 py-6 text-lg font-semibold rounded-2xl shadow-warm hover:scale-105 transition-smooth"
+          >
+            Start your family's next adventure
+          </Button>
+        </Link>
       </div>
       
       {/* Scroll indicator */}

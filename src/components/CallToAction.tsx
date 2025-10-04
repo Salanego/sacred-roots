@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { MessageCircle, ArrowRight } from "lucide-react";
 
 const CallToAction = () => {
@@ -15,14 +16,16 @@ const CallToAction = () => {
           </p>
           
           <div className="space-y-6">
-            <Button 
-              size="lg" 
-              className="warm-gradient text-white border-0 px-12 py-6 text-xl font-semibold rounded-2xl shadow-warm hover:scale-105 transition-smooth group"
-            >
-              <MessageCircle className="w-6 h-6 mr-3 group-hover:animate-pulse" />
-              Message us today to start your journey
-              <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <Link to="/apply">
+              <Button 
+                size="lg" 
+                className="warm-gradient text-white border-0 px-12 py-6 text-xl font-semibold rounded-2xl shadow-warm hover:scale-105 transition-smooth group"
+              >
+                <MessageCircle className="w-6 h-6 mr-3 group-hover:animate-pulse" />
+                Message us today to start your journey
+                <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
             
             <div className="text-white/80 text-lg">
               Ready to give your family an unforgettable learning adventure?
