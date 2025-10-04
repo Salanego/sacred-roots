@@ -1,5 +1,5 @@
 import { Sparkles } from "lucide-react";
 const WhatIsWorldschool = () => {
-  return;
+  return null;
 };
 export default WhatIsWorldschool;

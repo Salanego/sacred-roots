@@ -11,7 +11,7 @@ const CallToAction = () => {
           </h2>
           
           <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed max-w-3xl mx-auto">
-            💫 A place where the world becomes your classroom, and community becomes your home.
+            A place where the world becomes your classroom, and community becomes your home.
           </p>
           
           <div className="space-y-6">
