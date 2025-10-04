@@ -2,7 +2,7 @@ import { Brain, Palette, Heart, Sparkles } from "lucide-react";
 const LearningApproach = () => {
   const approaches = [{
     icon: Brain,
-    text: "Integrates multiple intelligences, creativity, and movement"
+    text: "Integrates creativity, movement, and project-based learning to engage every type of intelligence through real-world exploration"
   }, {
     icon: Palette,
     text: "Encourages curiosity through hands-on science, art, and music"
