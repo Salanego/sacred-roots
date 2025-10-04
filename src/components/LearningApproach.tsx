@@ -11,7 +11,7 @@ const LearningApproach = () => {
     text: "Honors emotional well-being and individuality through empathy, mindfulness, and authentic connection"
   }, {
     icon: Sparkles,
-    text: "Embraces neurodivergent children with love, flexibility, and awareness"
+    text: "Embraces neurodivergent children through conscious parenting, compassion, adaptability, and mindful understanding"
   }];
   return <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
