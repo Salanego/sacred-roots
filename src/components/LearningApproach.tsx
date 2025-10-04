@@ -5,7 +5,7 @@ const LearningApproach = () => {
     text: "Integrates creativity, movement, and project-based learning to engage every type of intelligence through real-world exploration"
   }, {
     icon: Palette,
-    text: "Encourages curiosity through hands-on science, art, and music"
+    text: "Encourages curiosity and self-expression through art, music, and free play, inspiring creative exploration and discovery"
   }, {
     icon: Heart,
     text: "Honors emotional well-being and the unique rhythm of each child"
