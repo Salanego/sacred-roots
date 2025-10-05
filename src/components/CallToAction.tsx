@@ -16,7 +16,7 @@ const CallToAction = () => {
           </p>
           
           <div className="space-y-4 md:space-y-6 px-4">
-            <Link to="/apply" className="block">
+            <a href="https://wa.me/51970458020" target="_blank" rel="noopener noreferrer" className="block">
               <Button 
                 size="lg" 
                 className="warm-gradient text-white border-0 px-6 md:px-12 py-4 md:py-6 text-base md:text-xl font-semibold rounded-2xl shadow-warm hover:scale-105 transition-smooth group w-full md:w-auto"
@@ -25,7 +25,7 @@ const CallToAction = () => {
                 <span className="text-center flex-1">Message us today to start your journey</span>
                 <ArrowRight className="w-5 h-5 md:w-6 md:h-6 ml-2 md:ml-3 group-hover:translate-x-1 transition-transform flex-shrink-0" />
               </Button>
-            </Link>
+            </a>
             
             <div className="text-white/80 text-sm md:text-lg">
               Ready to give your family an unforgettable learning adventure?
