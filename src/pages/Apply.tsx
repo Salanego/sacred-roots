@@ -96,7 +96,7 @@ ${data.familyHopes}
 ${data.additionalInfo ? `📝 Additional Information:\n${data.additionalInfo}` : ''}
     `.trim();
 
-    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/51970458020?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappUrl, '_blank');
     
