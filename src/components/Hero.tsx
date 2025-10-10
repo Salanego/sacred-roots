@@ -1,12 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/sacred-valley-hero.jpg";
+
 const Hero = () => {
-  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return (
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-      backgroundImage: `url(${heroImage})`
-    }} />
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+        style={{ backgroundImage: `url(${heroImage})` }} 
+      />
       
       {/* Overlay */}
       <div className="absolute inset-0 hero-gradient opacity-90" />
@@ -23,7 +26,7 @@ const Hero = () => {
           A home for families who learn, travel & grow together.
         </p>
         
-        <p className="text-lg md:text-xl mb-8 text-soft-sand font-semibold"> Cusco, Peru</p>
+        <p className="text-2xl md:text-3xl mb-8 text-soft-sand font-semibold tracking-wide">📍 Cusco, Peru</p>
         
         <Link to="/apply">
           <Button size="lg" className="warm-gradient text-white border-0 px-8 py-6 text-lg font-semibold rounded-2xl shadow-warm hover:scale-105 transition-smooth">
@@ -38,6 +41,8 @@ const Hero = () => {
           <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse" />
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;
