@@ -1,15 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/sacred-valley-hero.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroImage})`
+    }} />
       
       {/* Overlay */}
       <div className="absolute inset-0 hero-gradient opacity-90" />
@@ -19,22 +16,17 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Sacred Roots
           <br />
-          <span className="text-soft-sand">Worldschool Hub Peru</span>
+          <span className="text-soft-sand">Worldschool Hub</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-4 max-w-2xl mx-auto leading-relaxed opacity-95">
           A home for families who learn, travel & grow together.
         </p>
         
-        <p className="text-lg md:text-xl mb-8 text-soft-sand font-semibold">
-          📍 Cusco, Peru
-        </p>
+        <p className="text-lg md:text-xl mb-8 text-soft-sand font-semibold"> Cusco, Peru</p>
         
         <Link to="/apply">
-          <Button 
-            size="lg" 
-            className="warm-gradient text-white border-0 px-8 py-6 text-lg font-semibold rounded-2xl shadow-warm hover:scale-105 transition-smooth"
-          >
+          <Button size="lg" className="warm-gradient text-white border-0 px-8 py-6 text-lg font-semibold rounded-2xl shadow-warm hover:scale-105 transition-smooth">
             Start your family's next adventure
           </Button>
         </Link>
@@ -46,8 +38,6 @@ const Hero = () => {
           <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
