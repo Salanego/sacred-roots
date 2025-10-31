@@ -15,6 +15,10 @@ const OurHub = () => {
               At our hub in the Sacred Valley of Peru, learning unfolds naturally—through art, storytelling, music, nature walks, and hands-on discovery. Children explore at their own rhythm, guided by bilingual facilitators who nurture creativity, confidence, and emotional connection.
             </p>
             
+            <p>
+              Our bilingual facilitators (English and Spanish) create a rich environment for both language immersion and connection.
+            </p>
+            
             <div className="grid md:grid-cols-2 gap-8 mt-12">
               <div className="p-8 rounded-3xl bg-card shadow-earth">
                 <h3 className="text-2xl font-semibold text-foreground mb-4">Ages 3–16</h3>
