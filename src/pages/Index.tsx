@@ -7,6 +7,7 @@ import OurHub from "@/components/OurHub";
 import WhySacredValley from "@/components/WhySacredValley";
 import CommunityLife from "@/components/CommunityLife";
 import Programs from "@/components/Programs";
+import Gallery from "@/components/Gallery";
 import CallToAction from "@/components/CallToAction";
 
 const Index = () => {
@@ -21,6 +22,7 @@ const Index = () => {
       <CommunityLife />
       <WhySacredValley />
       <Programs />
+      <Gallery />
       <CallToAction />
     </div>
   );
