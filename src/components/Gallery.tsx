@@ -15,23 +15,23 @@ const Gallery = () => {
   const images = [
     {
       src: gallery1,
-      alt: "Sacred Valley terraces with misty mountain peaks at golden hour",
+      alt: "Majestic mountain peaks under dramatic gray clouds in the Sacred Valley",
     },
     {
       src: gallery2,
-      alt: "Children learning outdoors in the Sacred Valley",
+      alt: "Ancient stone walkway through the mountains of the Sacred Valley",
     },
     {
       src: gallery3,
-      alt: "Traditional Peruvian village at sunset in the Sacred Valley",
+      alt: "Traditional beige houses nestled at the foot of green hills in Peru",
     },
     {
       src: gallery4,
-      alt: "Lush nature and flowing river in the Sacred Valley",
+      alt: "Huayna Picchu mountain peak overlooking Machu Picchu in Peru",
     },
     {
       src: gallery5,
-      alt: "Families gathering together in the Sacred Valley community",
+      alt: "Colorful flags decorating a traditional street in the Sacred Valley",
     },
   ];
 
