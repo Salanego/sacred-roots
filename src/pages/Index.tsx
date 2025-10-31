@@ -3,6 +3,7 @@ import Intro from "@/components/Intro";
 import WhatIsWorldschool from "@/components/WhatIsWorldschool";
 import Vision from "@/components/Vision";
 import LearningApproach from "@/components/LearningApproach";
+import OurHub from "@/components/OurHub";
 import WhySacredValley from "@/components/WhySacredValley";
 import CommunityLife from "@/components/CommunityLife";
 import Programs from "@/components/Programs";
@@ -16,6 +17,7 @@ const Index = () => {
       <WhatIsWorldschool />
       <Vision />
       <LearningApproach />
+      <OurHub />
       <CommunityLife />
       <WhySacredValley />
       <Programs />
