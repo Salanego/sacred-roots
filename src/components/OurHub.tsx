@@ -1,6 +1,5 @@
 const OurHub = () => {
-  return (
-    <section className="py-20 bg-muted/30">
+  return <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -15,9 +14,7 @@ const OurHub = () => {
               At our hub in the Sacred Valley of Peru, learning unfolds naturally—through art, storytelling, music, nature walks, and hands-on discovery. Children explore at their own rhythm, guided by bilingual facilitators who nurture creativity, confidence, and emotional connection.
             </p>
             
-            <p>
-              Our bilingual facilitators (English and Spanish) create a rich environment for both language immersion and connection.
-            </p>
+            
             
             <div className="grid md:grid-cols-2 gap-8 mt-12">
               <div className="p-8 rounded-3xl bg-card shadow-earth">
@@ -37,8 +34,6 @@ const OurHub = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default OurHub;
