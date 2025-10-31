@@ -33,7 +33,7 @@ const CommunityLife = () => {
           </h2>
           <div className="w-24 h-1 warm-gradient mx-auto rounded-full" />
           <p className="text-xl text-muted-foreground mt-8 max-w-3xl mx-auto leading-relaxed">
-            Our Hub is built around co-housing living — a shared house where families and single parents create daily life together.
+            Our Hub is built around co-housing living — a shared house where families and single parents create daily life together. Parents are an essential part of the experience 💫
           </p>
         </div>
         
@@ -54,6 +54,15 @@ const CommunityLife = () => {
               </p>
             </div>
           ))}
+        </div>
+
+        <div className="max-w-4xl mx-auto mt-16 space-y-6 text-lg md:text-xl text-muted-foreground leading-relaxed">
+          <p>
+            We offer family activities such as yoga, sound healing, art, dance, and nature adventures. You'll also have the chance to join guided visits to archaeological sites, local artisan markets, and Andean cultural experiences that deepen your connection with the sacred land of Peru.
+          </p>
+          <p>
+            We cherish community life with shared dinners, circles, family-friendly gatherings, and local celebrations, where meaningful friendships naturally bloom.
+          </p>
         </div>
       </div>
     </section>
