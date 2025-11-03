@@ -1,4 +1,6 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Button } from "@/components/ui/button";
+import { Instagram } from "lucide-react";
 import gallery1 from "@/assets/gallery-sacred-valley-1.jpg";
 import gallery2 from "@/assets/gallery-sacred-valley-2.jpg";
 import gallery3 from "@/assets/gallery-sacred-valley-3.jpg";
@@ -64,6 +66,23 @@ const Gallery = () => {
           <CarouselPrevious className="left-4" />
           <CarouselNext className="right-4" />
         </Carousel>
+
+        <div className="text-center mt-8">
+          <Button 
+            asChild 
+            size="lg" 
+            className="gap-2"
+          >
+            <a 
+              href="https://www.instagram.com/sacredrootshub?igsh=djB5OTZ2YTV3eXR1" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Instagram className="w-5 h-5" />
+              Follow Us on Instagram
+            </a>
+          </Button>
+        </div>
       </div>
     </section>
   );
