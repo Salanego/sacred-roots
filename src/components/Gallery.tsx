@@ -12,6 +12,10 @@ import gallery7 from "@/assets/gallery-sacred-valley-7.jpg";
 const Gallery = () => {
   const images = [
     {
+      src: gallery7,
+      alt: "Charming cobblestone streets of a traditional Sacred Valley town"
+    },
+    {
       src: gallery1,
       alt: "Family exploring the ancient Maras salt pools in the Sacred Valley"
     },
@@ -34,10 +38,6 @@ const Gallery = () => {
     {
       src: gallery6,
       alt: "The stunning natural colors of Vinicunca Rainbow Mountain"
-    },
-    {
-      src: gallery7,
-      alt: "Charming cobblestone streets of a traditional Sacred Valley town"
     }
   ];
 
