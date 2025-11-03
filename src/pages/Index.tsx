@@ -20,7 +20,7 @@ const Index = () => {
       <CommunityLife />
       <WhySacredValley />
       <Programs />
-      
+      <Gallery />
       <CallToAction />
     </div>;
 };
