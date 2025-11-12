@@ -15,6 +15,10 @@ import galleryHub11 from "@/assets/gallery-hub-11.jpg";
 import galleryHub12 from "@/assets/gallery-hub-12.jpg";
 import galleryHub13 from "@/assets/gallery-hub-13.jpg";
 import galleryHub14 from "@/assets/gallery-hub-14.jpg";
+import galleryHub15 from "@/assets/gallery-hub-15.jpg";
+import galleryHub16 from "@/assets/gallery-hub-16.jpg";
+import galleryHub17 from "@/assets/gallery-hub-17.jpg";
+import galleryHub18 from "@/assets/gallery-hub-18.jpg";
 import gallery1 from "@/assets/gallery-sacred-valley-1.jpg";
 import gallery2 from "@/assets/gallery-sacred-valley-2.jpg";
 import gallery3 from "@/assets/gallery-sacred-valley-3.jpg";
@@ -80,6 +84,22 @@ const Gallery = () => {
     {
       src: galleryHub14,
       alt: "Warm shared bedroom with traditional conical wooden ceiling and natural terracotta floors"
+    },
+    {
+      src: galleryHub15,
+      alt: "Ancient Incan archaeological sites showcasing terraced ruins and dramatic canyon landscapes"
+    },
+    {
+      src: galleryHub16,
+      alt: "Outdoor bathtub surrounded by stunning mosaic art in the garden"
+    },
+    {
+      src: galleryHub17,
+      alt: "Peaceful moment gazing at the lush garden through bamboo-framed glass pavilion"
+    },
+    {
+      src: galleryHub18,
+      alt: "Waterfall cascading down the mountainside above traditional adobe structures"
     },
     {
       src: gallery7,
