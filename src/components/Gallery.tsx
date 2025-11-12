@@ -1,6 +1,15 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Button } from "@/components/ui/button";
 import { Instagram } from "lucide-react";
+import galleryHub1 from "@/assets/gallery-hub-1.jpg";
+import galleryHub2 from "@/assets/gallery-hub-2.jpg";
+import galleryHub3 from "@/assets/gallery-hub-3.jpg";
+import galleryHub4 from "@/assets/gallery-hub-4.jpg";
+import galleryHub5 from "@/assets/gallery-hub-5.jpg";
+import galleryHub6 from "@/assets/gallery-hub-6.jpg";
+import galleryHub7 from "@/assets/gallery-hub-7.jpg";
+import galleryHub8 from "@/assets/gallery-hub-8.jpg";
+import galleryHub9 from "@/assets/gallery-hub-9.jpg";
 import gallery1 from "@/assets/gallery-sacred-valley-1.jpg";
 import gallery2 from "@/assets/gallery-sacred-valley-2.jpg";
 import gallery3 from "@/assets/gallery-sacred-valley-3.jpg";
@@ -11,6 +20,42 @@ import gallery7 from "@/assets/gallery-sacred-valley-7.jpg";
 
 const Gallery = () => {
   const images = [
+    {
+      src: galleryHub1,
+      alt: "Sacred Roots Hub glass pavilion illuminated at dusk with warm interior lighting"
+    },
+    {
+      src: galleryHub2,
+      alt: "Traditional adobe house with terracotta tile roof nestled in lush gardens"
+    },
+    {
+      src: galleryHub3,
+      alt: "Cozy living space with traditional fireplace and colorful Peruvian textiles"
+    },
+    {
+      src: galleryHub4,
+      alt: "Child relaxing in hammock with stunning waterfall view in the Sacred Valley"
+    },
+    {
+      src: galleryHub5,
+      alt: "Bright meditation and yoga space with floor cushions and panoramic glass walls"
+    },
+    {
+      src: galleryHub6,
+      alt: "Welcoming entrance with warm wooden details and traditional mosaic tiles"
+    },
+    {
+      src: galleryHub7,
+      alt: "Comfortable bedroom with unique conical thatched roof and natural materials"
+    },
+    {
+      src: galleryHub8,
+      alt: "Community library and learning space with exposed bamboo ceiling"
+    },
+    {
+      src: galleryHub9,
+      alt: "Communal kitchen area with natural bamboo ceiling and mountain views"
+    },
     {
       src: gallery7,
       alt: "Charming cobblestone streets of a traditional Sacred Valley town"
