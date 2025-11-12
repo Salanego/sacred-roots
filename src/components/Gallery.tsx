@@ -123,11 +123,11 @@ const Gallery = () => {
           <CarouselContent>
             {images.map((image, index) => (
               <CarouselItem key={index}>
-                <div className="relative aspect-[16/10] overflow-hidden rounded-lg">
+                <div className="relative aspect-[16/10] overflow-hidden rounded-lg bg-muted/20">
                   <img
                     src={image.src}
                     alt={image.alt}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
               </CarouselItem>
