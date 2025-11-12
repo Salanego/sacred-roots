@@ -10,6 +10,11 @@ import galleryHub6 from "@/assets/gallery-hub-6.jpg";
 import galleryHub7 from "@/assets/gallery-hub-7.jpg";
 import galleryHub8 from "@/assets/gallery-hub-8.jpg";
 import galleryHub9 from "@/assets/gallery-hub-9.jpg";
+import galleryHub10 from "@/assets/gallery-hub-10.jpg";
+import galleryHub11 from "@/assets/gallery-hub-11.jpg";
+import galleryHub12 from "@/assets/gallery-hub-12.jpg";
+import galleryHub13 from "@/assets/gallery-hub-13.jpg";
+import galleryHub14 from "@/assets/gallery-hub-14.jpg";
 import gallery1 from "@/assets/gallery-sacred-valley-1.jpg";
 import gallery2 from "@/assets/gallery-sacred-valley-2.jpg";
 import gallery3 from "@/assets/gallery-sacred-valley-3.jpg";
@@ -55,6 +60,26 @@ const Gallery = () => {
     {
       src: galleryHub9,
       alt: "Communal kitchen area with natural bamboo ceiling and mountain views"
+    },
+    {
+      src: galleryHub10,
+      alt: "Children practicing aerial yoga in beautiful glass-roofed studio with garden views"
+    },
+    {
+      src: galleryHub11,
+      alt: "Peaceful garden with traditional adobe houses surrounded by mountains"
+    },
+    {
+      src: galleryHub12,
+      alt: "Sacred Valley garden with waterfall cascading down the mountain in the distance"
+    },
+    {
+      src: galleryHub13,
+      alt: "Serene meditation and yoga space with ceremonial altar and wooden details"
+    },
+    {
+      src: galleryHub14,
+      alt: "Warm shared bedroom with traditional conical wooden ceiling and natural terracotta floors"
     },
     {
       src: gallery7,
