@@ -26,7 +26,7 @@ const WeeklySchedule = () => {
           </h2>
         </div>
 
-        <div className="max-w-md mx-auto relative">
+        <div className="max-w-xs sm:max-w-sm mx-auto relative">
           <div className="overflow-hidden rounded-xl shadow-lg border border-border/50">
             <div
               className="flex transition-transform duration-700 ease-in-out"
