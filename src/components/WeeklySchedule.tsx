@@ -15,19 +15,19 @@ const WeeklySchedule = () => {
   }, []);
 
   return (
-    <section className="py-16 md:py-24 bg-muted/30">
+    <section className="py-12 md:py-16 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-foreground mb-4">
+        <div className="text-center mb-8">
+          <p className="text-primary font-medium tracking-wide uppercase text-sm mb-2">
+            Our Rhythm
+          </p>
+          <h2 className="font-display text-2xl md:text-3xl lg:text-4xl text-foreground">
             Weekly Flow Example
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A glimpse into how our days unfold at Sacred Roots Hub
-          </p>
         </div>
 
-        <div className="max-w-4xl mx-auto relative">
-          <div className="overflow-hidden rounded-2xl shadow-earth">
+        <div className="max-w-md mx-auto relative">
+          <div className="overflow-hidden rounded-xl shadow-lg border border-border/50">
             <div
               className="flex transition-transform duration-700 ease-in-out"
               style={{ transform: `translateX(-${currentSlide * 100}%)` }}
@@ -37,7 +37,7 @@ const WeeklySchedule = () => {
                   <img
                     src={schedule}
                     alt={`Weekly schedule ${index + 1}`}
-                    className="w-full h-auto object-contain bg-muted"
+                    className="w-full h-auto object-contain"
                   />
                 </div>
               ))}
@@ -45,14 +45,14 @@ const WeeklySchedule = () => {
           </div>
 
           {/* Dots indicator */}
-          <div className="flex justify-center gap-2 mt-6">
+          <div className="flex justify-center gap-2 mt-4">
             {schedules.map((_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                className={`w-2 h-2 rounded-full transition-all duration-300 ${
                   currentSlide === index
-                    ? "bg-primary scale-110"
+                    ? "bg-primary w-6"
                     : "bg-primary/30 hover:bg-primary/50"
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
