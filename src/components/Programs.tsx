@@ -67,26 +67,41 @@ const Programs = () => {
               Co-housing style with private family space and shared community areas for meaningful connections.
             </p>
             
-            <ul className="space-y-3 mb-8">
-              {[
-                "Private family rooms with personal space",
-                "Access to beautiful communal areas",
-                "Community support and daily rhythms",
-                "Shared kitchen and dining experiences"
-              ].map((item, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <Check className="w-5 h-5 text-sage-green mt-0.5 flex-shrink-0" />
-                  <span className="text-deep-brown">{item}</span>
-                </li>
-              ))}
-            </ul>
-            
-            <div className="bg-soft-sand/50 rounded-2xl p-6 mb-6">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-sunset-orange mb-2">$900</div>
-                <div className="text-warm-terracotta">per family / month</div>
+            <div className="space-y-4 mb-6">
+              <div className="bg-soft-sand/50 rounded-xl p-4">
+                <div className="flex justify-between items-center">
+                  <div>
+                    <div className="font-semibold text-deep-brown">Master Bungalows</div>
+                    <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds, private kitchen & bathroom</div>
+                  </div>
+                  <div className="text-xl font-bold text-sunset-orange">$900</div>
+                </div>
+              </div>
+              
+              <div className="bg-soft-sand/50 rounded-xl p-4">
+                <div className="flex justify-between items-center">
+                  <div>
+                    <div className="font-semibold text-deep-brown">Standard Bungalows</div>
+                    <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds & private bathroom</div>
+                  </div>
+                  <div className="text-xl font-bold text-sunset-orange">$800</div>
+                </div>
+              </div>
+              
+              <div className="bg-soft-sand/50 rounded-xl p-4">
+                <div className="flex justify-between items-center">
+                  <div>
+                    <div className="font-semibold text-deep-brown">Private Rooms</div>
+                    <div className="text-sm text-warm-terracotta">In our Co-Living House</div>
+                  </div>
+                  <div className="text-xl font-bold text-sunset-orange">$600</div>
+                </div>
               </div>
             </div>
+            
+            <p className="text-sm text-warm-terracotta text-center italic">
+              All options include access to shared spaces: kitchen, living areas, garden & community activities
+            </p>
           </div>
         </div>
         
