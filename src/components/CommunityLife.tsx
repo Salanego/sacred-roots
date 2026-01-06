@@ -43,9 +43,23 @@ We cherish community life with shared dinners, circles, family-friendly gatherin
             </div>)}
         </div>
 
-        <div className="max-w-4xl mx-auto mt-16 space-y-6 text-lg md:text-xl text-muted-foreground leading-relaxed">
-          
-          
+        <div className="max-w-4xl mx-auto mt-16 space-y-4 text-lg text-muted-foreground leading-relaxed">
+          <div className="bg-card rounded-2xl p-8 shadow-earth">
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <span className="text-primary mt-1">•</span>
+                <span>We welcome up to 7 families at a time to keep our community small, intentional, and deeply connected.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary mt-1">•</span>
+                <span>We invite guests to stay at least one week to fully experience community life.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary mt-1">•</span>
+                <span>We understand that families come in all sizes — and we're pleased to offer accommodation options for larger families as well.</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>;
