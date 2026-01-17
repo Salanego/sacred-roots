@@ -92,7 +92,7 @@ const Programs = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <div className="font-semibold text-deep-brown">Standard Bungalows</div>
-                    <div className="text-sm text-warm-terracotta">With outdoor bathrooms</div>
+                    <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds & outdoor bathroom</div>
                   </div>
                   <div className="text-xl font-bold text-sunset-orange">$700</div>
                 </div>
