@@ -64,7 +64,7 @@ const Programs = () => {
             </div>
             
             <p className="text-warm-terracotta mb-6 leading-relaxed">
-              Co-housing style with private family space and shared community areas for meaningful connections.
+              Co-housing style with private family bungalows and shared community areas for meaningful connections.
             </p>
             
             <div className="space-y-4 mb-6">
