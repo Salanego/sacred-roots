@@ -91,7 +91,7 @@ const Programs = () => {
               <div className="bg-soft-sand/50 rounded-xl p-4">
                 <div className="flex justify-between items-center">
                   <div>
-                    <div className="font-semibold text-deep-brown">Private Rooms</div>
+                    <div className="font-semibold text-deep-brown">Private Family Bungalows</div>
                     <div className="text-sm text-warm-terracotta">In our Co-Living House</div>
                   </div>
                   <div className="text-xl font-bold text-sunset-orange">$600</div>
