@@ -74,7 +74,10 @@ const Programs = () => {
                     <div className="font-semibold text-deep-brown">Master Bungalows</div>
                     <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds, private kitchen & bathroom</div>
                   </div>
-                  <div className="text-xl font-bold text-sunset-orange">$900</div>
+                  <div className="text-right">
+                    <div className="text-xl font-bold text-sunset-orange">$900</div>
+                    <div className="text-sm text-warm-terracotta">per month</div>
+                  </div>
                 </div>
               </div>
               
@@ -84,7 +87,10 @@ const Programs = () => {
                     <div className="font-semibold text-deep-brown">Standard Bungalows</div>
                     <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds & private bathroom</div>
                   </div>
-                  <div className="text-xl font-bold text-sunset-orange">$800</div>
+                  <div className="text-right">
+                    <div className="text-xl font-bold text-sunset-orange">$800</div>
+                    <div className="text-sm text-warm-terracotta">per month</div>
+                  </div>
                 </div>
               </div>
               
@@ -94,7 +100,10 @@ const Programs = () => {
                     <div className="font-semibold text-deep-brown">Standard Bungalows</div>
                     <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds & outdoor bathroom</div>
                   </div>
-                  <div className="text-xl font-bold text-sunset-orange">$700</div>
+                  <div className="text-right">
+                    <div className="text-xl font-bold text-sunset-orange">$700</div>
+                    <div className="text-sm text-warm-terracotta">per month</div>
+                  </div>
                 </div>
               </div>
             </div>
