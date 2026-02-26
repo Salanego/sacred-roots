@@ -7,7 +7,7 @@ import OurHub from "@/components/OurHub";
 import WhySacredValley from "@/components/WhySacredValley";
 import CommunityLife from "@/components/CommunityLife";
 import Programs from "@/components/Programs";
-import WeeklySchedule from "@/components/WeeklySchedule";
+
 import Gallery from "@/components/Gallery";
 import CallToAction from "@/components/CallToAction";
 
@@ -23,7 +23,7 @@ const Index = () => {
       <CommunityLife />
       <WhySacredValley />
       <Programs />
-      <WeeklySchedule />
+      
       <Gallery />
       <CallToAction />
     </div>
