@@ -44,9 +44,9 @@ const Programs = () => {
             
             <div className="bg-soft-sand/50 rounded-2xl p-6 mb-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-sunset-orange mb-2">$500</div>
+                <div className="text-3xl font-bold text-sunset-orange mb-2">$600</div>
                 <div className="text-warm-terracotta">per child / month</div>
-                <div className="text-lg font-semibold text-deep-brown mt-2">$900</div>
+                <div className="text-lg font-semibold text-deep-brown mt-2">$1,150</div>
                 <div className="text-warm-terracotta">for two siblings / month</div>
               </div>
             </div>
