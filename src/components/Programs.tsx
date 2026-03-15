@@ -44,9 +44,9 @@ const Programs = () => {
             
             <div className="bg-soft-sand/50 rounded-2xl p-6 mb-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-sunset-orange mb-2">$500</div>
+                <div className="text-3xl font-bold text-sunset-orange mb-2">$600</div>
                 <div className="text-warm-terracotta">per child / month</div>
-                <div className="text-lg font-semibold text-deep-brown mt-2">$900</div>
+                <div className="text-lg font-semibold text-deep-brown mt-2">$1,150</div>
                 <div className="text-warm-terracotta">for two siblings / month</div>
               </div>
             </div>
@@ -75,7 +75,7 @@ const Programs = () => {
                     <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds, private kitchen & bathroom</div>
                   </div>
                   <div className="text-right">
-                    <div className="text-xl font-bold text-sunset-orange">$900</div>
+                    <div className="text-xl font-bold text-sunset-orange">$990</div>
                     <div className="text-sm text-warm-terracotta">per month</div>
                   </div>
                 </div>
@@ -88,24 +88,12 @@ const Programs = () => {
                     <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds & private bathroom</div>
                   </div>
                   <div className="text-right">
-                    <div className="text-xl font-bold text-sunset-orange">$800</div>
+                    <div className="text-xl font-bold text-sunset-orange">$890</div>
                     <div className="text-sm text-warm-terracotta">per month</div>
                   </div>
                 </div>
               </div>
               
-              <div className="bg-soft-sand/50 rounded-xl p-4">
-                <div className="flex justify-between items-center">
-                  <div>
-                    <div className="font-semibold text-deep-brown">Standard Bungalows</div>
-                    <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds & outdoor bathroom</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-xl font-bold text-sunset-orange">$700</div>
-                    <div className="text-sm text-warm-terracotta">per month</div>
-                  </div>
-                </div>
-              </div>
             </div>
             
             <p className="text-sm text-warm-terracotta text-center italic">
