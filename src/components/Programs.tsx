@@ -94,18 +94,6 @@ const Programs = () => {
                 </div>
               </div>
               
-              <div className="bg-soft-sand/50 rounded-xl p-4">
-                <div className="flex justify-between items-center">
-                  <div>
-                    <div className="font-semibold text-deep-brown">Standard Bungalows</div>
-                    <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds & outdoor bathroom</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-xl font-bold text-sunset-orange">$700</div>
-                    <div className="text-sm text-warm-terracotta">per month</div>
-                  </div>
-                </div>
-              </div>
             </div>
             
             <p className="text-sm text-warm-terracotta text-center italic">
