@@ -2,8 +2,8 @@ import { Home, Sun, Heart, Users2 } from "lucide-react";
 const CommunityLife = () => {
   const features = [{
     icon: Home,
-     title: "Private family casa + communal spaces",
-    description: "Your own family casa plus shared kitchen and living areas for connection and growth"
+     title: "Private family house + communal spaces",
+    description: "Your own family house plus shared kitchen and living areas for connection and growth"
   }, {
     icon: Sun,
     title: "Weekly wellness & creative sessions",
