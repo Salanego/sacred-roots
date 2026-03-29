@@ -48,7 +48,7 @@ We cherish community life with shared dinners, circles, family-friendly gatherin
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <span className="text-primary mt-1">•</span>
-                <span>We welcome up to 7 families at a time to keep our community small, intentional, and deeply connected.</span>
+                <span>We welcome up to 6 families at a time to keep our community small, intentional, and deeply connected.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-primary mt-1">•</span>
