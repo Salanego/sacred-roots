@@ -84,11 +84,11 @@ const Programs = () => {
               <div className="bg-soft-sand/50 rounded-xl p-4">
                 <div className="flex justify-between items-center">
                   <div>
-                    <div className="font-semibold text-deep-brown">Standard Bungalows</div>
-                    <div className="text-sm text-warm-terracotta">Private bungalows with 2–3 beds & private bathroom</div>
+                    <div className="font-semibold text-deep-brown">Private Apartment</div>
+                    <div className="text-sm text-warm-terracotta">Entire private apartment, 1 bedroom with king-size bed or two beds. Equipped kitchen, living room & private bathroom with tub. Shared common areas.</div>
                   </div>
                   <div className="text-right">
-                    <div className="text-xl font-bold text-sunset-orange">$890</div>
+                    <div className="text-xl font-bold text-sunset-orange">$1,500</div>
                     <div className="text-sm text-warm-terracotta">per month</div>
                   </div>
                 </div>
